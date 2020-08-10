@@ -1,0 +1,64 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "Cup",
+            "description": "This is a very beautiful cup. It is made using high quality raw materials",
+            "price": 50
+        },
+        {
+            "id": 2,
+            "name": "Book",
+            "description": "This is a very beautiful book. It is made using high quality raw materials",
+            "price": 350
+        },
+        {
+            "id": 3,
+            "name": "Pen",
+            "description": "This is a very beautiful pen. It is made using high quality raw materials",
+            "price": 45
+        },
+        {
+            "id": 4,
+            "name": "Pencil",
+            "description": "This is a very beautiful pencil. It is made using high quality raw materials",
+            "price": 20
+        },
+        {
+            "id": 5,
+            "name": "Laptop",
+            "description": "This is a very beautiful laptop. It is made using high quality raw materials",
+            "price": 100000
+        },
+        {
+            "id": 6,
+            "name": "Mouse",
+            "description": "This is a very beautiful mouse. It is made using high quality raw materials",
+            "price": 5000
+        },
+        {
+            "id": 7,
+            "name": "Keyboard",
+            "description": "This is a very beautiful keyboard. It is made using high quality raw materials",
+            "price": 10000
+        },
+        {
+            "id": 8,
+            "name": "Mobile",
+            "description": "This is a very beautiful mobile. It is made using high quality raw materials",
+            "price": 50000
+        },
+        {
+            "id": 9,
+            "name": "Bottle",
+            "description": "This is a very beautiful bottle. It is made using high quality raw materials",
+            "price": 60
+        },
+        {
+            "id": 10,
+            "name": "Bag",
+            "description": "This is a very beautiful bag. It is made using high quality raw materials",
+            "price": 500
+        }
+    ]
+}

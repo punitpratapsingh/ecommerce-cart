@@ -1,0 +1,82 @@
+.cart{
+    position: relative;
+}
+
+.cartLogoContainer, .backArrow{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 1rem 0 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.heading{
+    color: #3636c4;
+    padding: 2rem;
+}
+
+.cartLogo, .arrowImage{
+    transform: scale(1.1);
+}
+
+.cartCount{
+    position: absolute;
+    top: 0;
+    right: -5px;
+    font-size: .9rem;
+    display: inline-block;
+    height: 1.15rem;
+    width: 1.15rem;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 700;
+    background-color: #ecea69e8;
+}
+
+.cartSection{
+    display: block;
+}
+
+.cartContainer{
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    width: 10rem;
+    display: inline-block;
+    padding: 1rem 2rem 3rem 2rem;
+    margin: 1rem;
+    position: relative;
+}
+
+.cartProductName{
+    font-weight: 700;
+    text-align: center;
+    color: #3636c4;
+}
+
+.cartProductPrice{
+    font-weight: 300;
+    text-align: center;
+}
+
+.cartDeleteBtn{
+    background-color: #3636c4;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: .5rem .75rem;
+    color: white;
+    border-radius: 5px;
+    width: 70%;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    transition: opacity .3s ease;
+}
+
+.cartDeleteBtn:hover{
+    opacity: 0.9;
+}

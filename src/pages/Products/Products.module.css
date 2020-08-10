@@ -1,0 +1,135 @@
+.productsContainer{
+    width: 100%;
+    position: relative;
+}
+
+.productsSection{
+    text-align: center;
+    width: 100%;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    margin: .5rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productBox{
+    width: 30%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.textOne{
+    font-size: 2rem;
+    margin: 1.5rem auto;
+}
+
+.searchForm{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.searchInput{
+    width: 80%;
+    padding: .5rem .75rem;
+    outline: none;
+    border: 1px solid #dadada;
+    border-bottom-left-radius: 33px;
+    border-top-left-radius: 33px;
+}
+
+.searchBtn{
+    padding: .5rem .75rem;
+    background: #3636c4;
+    font-family: inherit;
+    font-size: 1.05rem;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-bottom-right-radius: 33px;
+    border-top-right-radius: 33px;
+}
+
+.productName{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+
+.productDescription{
+    font-size: .9rem;
+    padding: .5rem .75rem;
+}
+
+.productPrice{
+    font-weight: 700;
+    padding: .5rem 0;
+}
+
+.cartBtn{
+    background-color: #3636c4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: .6rem .8rem;
+    margin-bottom: .75rem;
+    cursor: pointer;
+}
+
+.cartBtn:hover{
+    opacity: 0.9;
+}
+
+.cartLogoContainer{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 1rem 0 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.cartLogo{
+    transform: scale(1.1);
+}
+
+.cartCount{
+    position: absolute;
+    top: 0;
+    right: -5px;
+    font-size: .9rem;
+    display: inline-block;
+    height: 1.15rem;
+    width: 1.15rem;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 700;
+    background-color: #ecea69e8;
+}
+
+.logoutBtn{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    padding: .5rem .75rem;
+    text-decoration: none;
+}
+
+.userName{
+    text-align: center;
+    color: #3636c4;
+    margin-top: 1rem;
+}
